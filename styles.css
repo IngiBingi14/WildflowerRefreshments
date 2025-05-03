@@ -38,11 +38,14 @@ a:hover {
     grid-template-columns: 50% 50%;
     justify-content: center;
     gap: 20px;
-    border: 2px solid #ff009d;
-    padding: 10px;
-    border-radius: 5px;
 }
 
 .link-container p {
     margin: 0;
+}
+
+.dual-chambers {
+    border: 2px solid #ff009d;
+    padding: 10px;
+    border-radius: 5px;
 }

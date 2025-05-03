@@ -1,7 +1,5 @@
 body {
-    background-color: #fffd70
-}
-.main-content {
+    background-color: #fffd70;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -18,7 +16,7 @@ p:first-child {
 
 p {
     font-size: 1.1em;
-    color: #333;
+    color: #ff009d;
     line-height: 1.6;
     margin: 10px 0;
 }

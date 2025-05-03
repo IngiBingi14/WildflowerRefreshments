@@ -34,18 +34,22 @@ a:hover {
 }
 
 .link-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: center;
+    display: flex;
+    justify-content: center;    
     gap: 20px;
 }
 
-.link-container p {
-    margin: 0;
+.link-box {
+    flex: 0 0 150px; /* Fixed width for equal size */
+    height: 60px; /* Fixed height for equal size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ff009d;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-.dual-chambers {
-    border: 2px solid #ff009d;
-    padding: 10px;
-    border-radius: 5px;
+.link-box p {
+    margin: 0;
 }

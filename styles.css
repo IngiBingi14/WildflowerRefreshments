@@ -1,0 +1,21 @@
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+p:first-child {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff9900;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+}

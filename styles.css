@@ -34,7 +34,8 @@ a:hover {
 }
 
 .link-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     gap: 20px;
     border: 2px solid #ff009d;

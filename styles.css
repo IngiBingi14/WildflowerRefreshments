@@ -7,11 +7,16 @@ body {
     font-family: Arial, sans-serif;
 }
 
+li {
+    color: #ff009d;
+}
+
 p:first-child {
     font-size: 2em;
     font-weight: bold;
     color: #ff009d;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 p {

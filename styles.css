@@ -1,9 +1,7 @@
-
 body {
-    background-color: yellow;
+    background-color: #fffd70
 }
-
-div {
+.main-content {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -14,7 +12,7 @@ div {
 p:first-child {
     font-size: 2em;
     font-weight: bold;
-    color: #ff00aa;
+    color: #ff009d;
     margin-bottom: 20px;
 }
 
@@ -26,11 +24,24 @@ p {
 }
 
 a {
-    color: #ff00aa;
+    color: #ff009d;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid #ff009d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link-container p {
+    margin: 0;
 }
